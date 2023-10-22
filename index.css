@@ -1,0 +1,921 @@
+html {
+    height: 100%;
+    margin: 0;
+    
+}
+
+.mb-60 {
+    margin-bottom: 60px;
+}
+
+.text-shadow {
+    text-shadow: 1px 0 1px #000, 
+    0 1px 1px #000, 
+    -1px 0 1px #000, 
+    0 -1px 1px #000;
+}
+
+.margin-left {
+    margin-left: 200px;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    width: 100%;
+    min-height: 60px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background-color: #fff;
+}
+
+.a-header {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.a-header:hover {
+    text-decoration: underline;
+    color: rgb(12, 12, 12);
+    transition: all 0.1s;
+}
+
+main {
+    height: 100%;
+    display: grid;
+    grid-template-rows: 500px 900px 900px 800px 900px;
+}
+
+/*первый блок*/
+.block-one {
+    background-image: url(img/фон1.jpg);
+    background-size: 100% 100%;
+    width: 100%;
+    min-width: 100%;
+    display: grid;
+}
+
+.h1-block {
+    color: #fff;
+    margin-top: 60px;
+    font-size: 50px;
+}
+
+.p-block-white {
+    color: #fff;
+    width: 800px;
+    font-size: 23px;
+    display: inline;
+}
+
+.btn-block, .btn-phone-number {
+    width: 650px;
+    height: 55px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(18, 0, 100);
+    color: #fff;
+    font-weight: 700;
+    font-size: 22px;
+    transition: background 0.1s;
+}
+
+.btn-block:hover, .btn-phone-number:hover{
+    background-color: rgb(23, 0, 128);
+    transition: background 0.1s;
+}
+
+.btn-block:active, .btn-phone-number:active{
+    background-color: rgb(26, 0, 141);
+    transition: background 0.1s;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+/*второй блок*/
+.block-second {
+    width: 100%;
+    background-color: #fff;
+    display: grid;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+.p-block-black {
+    width: 1000px;
+    font-size: 23px;
+    margin-top: 20px;
+    color: rgb(18, 0, 100);
+}
+
+.h5-block{
+    margin-top: 20px;
+    width: 700px;
+    font-weight: 700;
+    color: rgb(18, 0, 100);
+    height: 60px;
+    font-size: 28px;
+}
+
+.list-block {
+    font-weight: 400;
+    font-size: 23px;
+    color: rgb(18, 0, 100);
+}
+
+/*боковая панель*/
+.side-panel {
+    width: 400px;
+    height: 900px;;
+    border: 1px solid rgb(155, 155, 155);
+    box-shadow: 0 0 2px 2px rgb(155, 155, 155);
+    position: absolute;
+    left: 75%;
+    top: 650px;
+    z-index: 3;
+    display: grid;
+    justify-items: center;
+    background-color: #fff;
+    color: rgb(18, 0, 100);
+}
+
+.img-side-panel {
+    width: 100%;
+}
+
+.h5-side-panel {
+    width: 100%;
+    font-weight: 900;
+    display: grid;
+    justify-items: center;
+    font-size: 24px;
+}
+
+.ol-side-panel {
+    font-size: 20px;
+    font-weight: 600px;
+    width: 98%;
+}
+
+.phone-number {
+    font-weight: 900;
+    font-size: 22px;
+}
+
+.btn-phone-number {
+    width: 300px;
+    height: 40px;
+}
+
+/*третий блок*/
+.block-third{
+    width: 100%;
+    background-color: rgb(214, 214, 214);
+    padding-top: 1px;
+    padding-bottom: 1px;
+    display: grid;
+}
+
+.fs-35 {
+    font-size: 35px; 
+ }
+
+ /*четвертый блок*/
+.block-fourth {
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    padding-top: 1px;
+    padding-bottom: 1px;
+    display: grid;
+}
+
+.h5-fourch {
+    width: 950px;
+}
+
+.border-example {
+    width: 1000px;
+    height: 600px;
+    border: 3px solid rgb(18, 0, 100);
+    display: grid;
+    justify-items: center;
+}
+
+.bold-blue {
+    font-weight: 900;
+    color: rgb(24, 2, 122);
+    width: 90%;
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.p-border-example {
+    font-weight: 500;
+    color: rgb(46, 42, 252);
+    width: 90%;
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+/*пятый блок*/
+.block-fifth {
+    width: 100%;
+    background-color: rgb(214, 214, 214);
+    padding-top: 1px;
+    padding-bottom: 1px; 
+    position: relative;
+    top: 950px;
+    display: grid;
+}
+
+
+.bdr-blue {
+    border: 3px solid rgb(18, 0, 100);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    text-decoration:underline;
+}
+
+@media (max-width: 1650px) {
+
+    .h1-block {
+        font-size: 3vw;
+    }
+
+    .side-panel {
+        position: relative;
+        width: 100vw;
+        top: 0;
+        left: 0;
+        height: 500px;
+        justify-content: start;
+        border: none;
+        box-shadow: none;
+        box-sizing: border-box;
+        z-index: 0;
+        display: none;
+    }
+
+    .h5-side-panel, .h5-block, .list-block, .list-side-panel, .phone-number, .btn-phone-number, .p-block-white, .h1-block, .p-block-black, .border-example, .bdr-blue, .btn-block{
+        margin-left: 50px;
+    }
+
+    .h5-side-panel, .phone-number {
+        font-size: 2vw;
+    }
+
+    .list-side-panel {
+        font-size: 1.6vw;
+    }
+
+    .btn-phone-number {
+        width: 675px;
+        height: 50px;
+    }
+
+    .img-side-panel {
+        display: none;
+    }
+}
+
+@media (max-width: 1210px) {
+    main {
+        grid-template-rows: 500px 1100px 1300px 1300px 1300px;
+    }
+
+    .p-block-white{
+        width: 70%;
+        font-size: 2vw;
+        height: 100%;
+    }
+
+    .h1-block {
+        font-size: 3vw;
+    }
+
+    .h5-side-panel, .h5-block, .btn-block, .list-block, .list-side-panel, .phone-number, .btn-phone-number, .p-block-white, .h1-block, .p-block-black, .border-example, .bdr-blue, .btn-phone-number{
+        margin-left: 100px;
+    }
+
+    .h5-side-panel {
+        font-size: 2.6vw;
+    }
+
+    .h5-block {
+        font-size: 3vw;
+        width: 700px;
+    }
+
+    .list-side-panel {
+        font-size: 2.2vw;
+    }
+
+    .p-block-black {
+        width: 70%;
+        font-size: 2.4vw;
+        height: 100%;
+        font-weight: 700;
+    }
+
+    .border-example {
+        width: 600px;
+        height: 100%;
+    }
+
+    .p-border-example {
+        width: 80%;
+        height: 100%;
+    }
+
+    .bdr-blue {
+        width: 600px;
+        height: 60%;
+    }
+
+    .side-panel {
+        display: none;
+    }
+}
+
+@media (max-width: 826px) {
+    .side-panel {
+        display: none;
+    }
+
+    main {
+        grid-template-rows: 500px 1000px 900px 1100px 900px;
+    }
+
+    .h5-side-panel, .h5-block, .btn-block, .list-block, .list-side-panel, .phone-number, .btn-phone-number, .p-block-white, .h1-block, .p-block-black, .border-example, .bdr-blue, .btn-phone-number{
+        margin-left: 60px;
+    }
+
+
+    .btn-block, .btn-phone-number {
+        width: 600px;
+    }
+
+    .h5-side-panel, .phone-number {
+        font-size: 3vw;
+    }
+
+    .list-block {
+        font-size: 2.4vw;
+        font-weight: 700;
+    }
+
+    .p-block-white{
+        width: 70%;
+        font-size: 2.2vw;
+        font-weight: 300;
+        height: 100%;
+    }
+
+    .h1-block {
+        font-size: 3.6vw;
+    }
+
+    .bdr-blue {
+        width: 600px;
+        height: 130px;
+        font-size: 2vw;
+    }
+
+    .h5-block {
+        font-size: 3.3vw;
+        width: 600px;
+    }
+
+    .a-header {
+        font-size: 3vw;
+    }
+
+    .p-block-black {
+        width: 600px;
+        font-size: 2.4vw;
+        height: 100%;
+        font-weight: 700;
+    }
+
+    .list-side-panel {
+        font-size: 2.5vw;
+    }
+
+    .bdr-blue {
+        width: 600px;
+        height: 150px;
+    }
+}
+
+@media (max-width: 692px) {
+    .p-block-white{
+        width: 70%;
+        font-size: 2.5vw;
+        font-weight: 300;
+        height: 100%;
+    }
+
+    .side-panel {
+        display: none;
+    }
+
+
+    .h1-block {
+        font-size: 4vw;
+    }
+
+    .btn-block, .btn-phone-number {
+        width: 500px;
+    }
+
+    .h5-side-panel, .h5-block, .btn-block, .list-block, .list-side-panel, .phone-number, .btn-phone-number, .p-block-white, .h1-block, .p-block-black, .border-example, .bdr-blue, .btn-phone-number{
+        margin-left: 80px;
+    }
+
+    main {
+        grid-template-rows: 500px 1150px 1000px 1500px 1000px;
+    }
+
+    .list-side-panel {
+        font-size: 2.8vw;
+    }
+
+    .h5-side-panel, .phone-number {
+        font-size: 3.4vw;
+    }
+
+    .p-block-black {
+        width: 450px;
+        font-size: 2.8vw;
+        height: 100%;
+        font-weight: 700;
+    }
+
+    .h5-block {
+        font-size: 3.5vw;
+        width: 500px;
+    }
+
+    .list-block {
+        font-size: 2.6vw;
+        font-weight: 700;
+    }
+
+    .bdr-blue {
+        width: 500px;
+        height: 110px;
+        font-size: 2vw;
+    }
+
+    .border-example {
+        width: 500px;
+        height: 100%;
+    }
+
+    .list-block {
+        font-size: 2.6vw;
+        font-weight: 700;
+        width: 500px;
+    }
+}
+
+@media (max-width: 620px) {
+    .p-block-white{
+        width: 70%;
+        font-size: 2.5vw;
+        font-weight: 300;
+        height: 100%;
+    }
+
+    .side-panel {
+        display: none;
+    }
+
+
+    .h1-block {
+        font-size: 4vw;
+    }
+
+    .btn-block, .btn-phone-number {
+        width: 450px;
+    }
+
+    .h5-side-panel, .h5-block, .btn-block, .list-block, .list-side-panel, .phone-number, .btn-phone-number, .p-block-white, .h1-block, .p-block-black, .border-example, .bdr-blue, .btn-phone-number{
+        margin-left: 80px;
+    }
+
+    main {
+        grid-template-rows: 400px 1100px 900px 1750px 1000px;
+    }
+
+    .list-side-panel {
+        font-size: 3vw;
+        width: 450px;
+    }
+
+    .h5-side-panel, .phone-number {
+        font-size: 3.4vw;
+    }
+
+    .p-block-black {
+        width: 450px;
+        font-size: 2.8vw;
+        height: 100%;
+        font-weight: 700;
+    }
+
+    .h5-block {
+        font-size: 4vw;
+        width: 500px;
+    }
+
+    .list-block {
+        font-size: 2.6vw;
+        font-weight: 700;
+    }
+
+    .bdr-blue {
+        width: 450px;
+        height: 130px;
+        font-size: 2vw;
+    }
+
+    .border-example {
+        width: 450px;
+        height: 100%;
+    }
+
+    .list-block {
+        font-size: 2.8vw;
+        font-weight: 700;
+        width: 450px;
+    }
+}
+
+@media (max-width: 580px) {
+    .btn-block, .btn-phone-number {
+        width: 400px;
+        font-size: 3vw;
+    }
+
+    .side-panel {
+        display: none;
+    }
+
+
+    main {
+        grid-template-rows: 400px 1500px 1300px 2300px 1500px;
+    }
+
+    .h5-side-panel, .h5-block, .btn-block, .list-block, .list-side-panel, .phone-number, .btn-phone-number, .p-block-white, .h1-block, .p-block-black, .border-example, .bdr-blue, .btn-phone-number{
+        margin-left: 70px;
+    }
+
+    .list-block {
+        font-size: 3.4vw;
+        font-weight: 700;
+        width: 400px;
+    }
+
+    .p-block-black {
+        width: 400px;
+        font-size: 3.6vw;
+        height: 100%;
+        font-weight: 700;
+    }
+
+    .bdr-blue {
+        width: 450px;
+        height: 150px;
+        font-size: 2vw;
+    }
+
+    .p-block-white{
+        width: 400px;
+        font-size: 2.8vw;
+        font-weight: 300;
+        height: 100%;
+    }
+
+    .h1-block {
+        font-size: 4vw;
+    }
+
+    .border-example {
+        width: 400px;
+        height: 100%;
+    }
+
+    .h5-block {
+        font-size: 4.5vw;
+        width: 400px;
+    }
+
+    .list-side-panel {
+        font-size: 3.4vw;
+        width: 400px;
+    }
+
+    .h5-side-panel, .phone-number {
+        font-size: 3.6vw;
+    }
+
+    .side-panel {
+        height: 100%;
+    }
+
+    .bdr-blue {
+        width: 400px;
+        height: 130px;
+        font-size: 2vw;
+    }
+
+    .border-example {
+        width: 400px;
+        height: 100%;
+    }
+}
+
+@media (max-width: 520px) {
+    .h5-side-panel, .h5-block, .btn-block, .list-block, .list-side-panel, .phone-number, .btn-phone-number, .p-block-white, .h1-block, .p-block-black, .border-example, .bdr-blue, .btn-phone-number{
+        margin-left: 60px;
+    }
+}
+
+@media (max-width: 495px) {
+    .btn-block, .btn-phone-number {
+        width: 300px;
+        font-size: 3vw;
+    }
+    .side-panel {
+        display: none;
+    }
+
+
+    main {
+        grid-template-rows: 400px 1550px 1450px 3100px 1400px;
+    }
+
+    .list-block {
+        font-size: 3.8vw;
+        font-weight: 700;
+        width: 300px;
+        grid-row-gap: 10px;
+    }
+
+    .p-block-black {
+        width: 300px;
+        font-size: 3.8vw;
+        height: 100%;
+        font-weight: 700;
+    }
+
+    .bdr-blue {
+        width: 300px;
+        height: 230px;
+        font-size: 2vw;
+    }
+
+    .p-block-white{
+        width: 300px;
+        font-size: 2.8vw;
+        font-weight: 300;
+        height: 100%;
+    }
+
+    .h1-block {
+        font-size: 4vw;
+    }
+
+    .border-example {
+        width: 300px;
+        height: 100%;
+    }
+
+    .h5-block {
+        font-size: 4.5vw;
+        width: 340px;
+    }
+
+    .list-side-panel {
+        font-size: 3.8vw;
+        width: 300px;
+    }
+
+    .h5-side-panel, .phone-number {
+        font-size: 4vw;
+    }
+
+    .side-panel {
+        height: 100%;
+    }
+
+    .bdr-blue {
+        width: 300px;
+        height: 150px;
+        font-size: 2vw;
+    }
+
+    .border-example {
+        width: 300px;
+        height: 100%;
+    }
+}
+
+@media (max-width: 425px) {
+    .btn-block {
+        width: 330px;
+        font-size: 2.7vw;
+    }
+
+    .h5-side-panel, .h5-block, .btn-block, .list-block, .list-side-panel, .phone-number, .btn-phone-number, .p-block-white, .h1-block, .p-block-black, .border-example, .bdr-blue, .btn-phone-number{
+        margin-left: 50px;
+    }
+
+    .side-panel {
+        display: none;
+    }
+
+    main {
+        grid-template-rows: 400px 1750px 1550px 2700px 1500px;
+    }
+
+    .list-block {
+        font-size: 5vw;
+        font-weight: 700;
+        width: 340px;
+        grid-row-gap: 10px;
+    }
+
+    .p-block-black {
+        width: 340px;
+        font-size: 5vw;
+        height: 100%;
+        font-weight: 700;
+    }
+
+    .bdr-blue {
+        width: 230px;
+        height: 200px;
+        font-size: 2vw;
+    }
+
+    .p-block-white{
+        width: 300px;
+        font-size: 3vw;
+        font-weight: 300;
+        height: 100%;
+    }
+
+    .p-border-example {
+        font-size: 5.5vw;
+    }
+
+    .h1-block {
+        font-size: 4.4vw;
+    }
+
+    .border-example {
+        width: 150px;
+        height: 100%;
+    }
+
+    .h5-block {
+        font-size: 5.4vw;
+        width: 340px;
+    }
+
+    .list-side-panel {
+        font-size: 5vw;
+        width: 260px;
+    }
+
+    .h5-side-panel, .phone-number {
+        font-size: 4vw;
+    }
+
+    .side-panel {
+        height: 100%;
+    }
+
+    .bdr-blue {
+        width: 330px;
+        height: 150px;
+        font-size: 2vw;
+    }
+
+    .border-example {
+        width: 330px;
+        height: 100%;
+    }
+}
+
+@media (max-width: 370px) {
+    .btn-block {
+        width: 300px;
+        font-size: 2.7vw;
+    }
+
+    .h5-side-panel, .h5-block, .btn-block, .list-block, .list-side-panel, .phone-number, .btn-phone-number, .p-block-white, .h1-block, .p-block-black, .border-example, .bdr-blue, .btn-phone-number{
+        margin-left: 30px;
+    }
+
+    .border-example, .bdr-blue {
+        margin-left: 20px;
+    }
+
+    .side-panel {
+        display: none;
+    }
+
+    main {
+        grid-template-rows: 400px 1600px 1500px 2150px 1400px;
+    }
+
+    .list-block {
+        font-size: 5vw;
+        font-weight: 700;
+        width: 300px;
+        grid-row-gap: 10px;
+    }
+
+    .p-block-black {
+        width: 300px;
+        font-size: 5vw;
+        height: 100%;
+        font-weight: 700;
+    }
+
+    .bdr-blue {
+        width: 60%;
+        height: 300px;
+        font-size: 2vw;
+    }
+
+    .p-block-white{
+        width: 300px;
+        font-size: 3vw;
+        font-weight: 300;
+        height: 100%;
+    }
+
+    .p-border-example {
+        font-size: 5.5vw;
+    }
+
+    .h1-block {
+        font-size: 4.4vw;
+    }
+
+    .border-example {
+        width: 80px;
+        height: 100%;
+    }
+
+    .h5-block {
+        font-size: 6vw;
+        width: 340px;
+    }
+
+    .list-side-panel {
+        font-size: 5vw;
+        width: 260px;
+    }
+
+    .h5-side-panel, .phone-number {
+        font-size: 4vw;
+    }
+
+    .side-panel {
+        height: 100%;
+    }
+
+    .bdr-blue {
+        width: 330px;
+        height: 150px;
+        font-size: 2vw;
+    }
+
+    .border-example {
+        width: 330px;
+        height: 100%;
+    }
+}
+
+@media (max-width: 370px) {
+    main {
+        grid-template-rows: 400px 1200px 1100px 1400px 1200px;
+    }
+}
